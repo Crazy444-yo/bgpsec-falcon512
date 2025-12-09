@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+examples/*.bin
+examples/*.pcap
+venv/
+env/
+.venv
+

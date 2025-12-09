@@ -1,0 +1,38 @@
+# Alternative Dockerfile using Debian's liboqs package (if available)
+FROM python:3.10-slim
+
+WORKDIR /app
+
+# Try to install liboqs from Debian repositories first
+# This may not be available in all Debian versions
+RUN apt-get update && apt-get install -y \
+    build-essential \
+    python3-dev \
+    git \
+    cmake \
+    ninja-build \
+    libssl-dev \
+    && apt-get install -y liboqs-dev 2>/dev/null || \
+    echo "liboqs-dev not in repos - will build from source" && \
+    rm -rf /var/lib/apt/lists/*
+
+COPY requirements.txt .
+
+# Install Python dependencies
+RUN pip install --no-cache-dir --upgrade pip && \
+    pip install --no-cache-dir -r requirements.txt
+
+# Set library path (in case liboqs is installed in /usr/local/lib)
+ENV LD_LIBRARY_PATH=/usr/local/lib:/usr/lib:$LD_LIBRARY_PATH
+
+# Verify installation during build
+RUN python -c "from oqs import Signature; s = Signature('Falcon-512'); print('liboqs verified')"
+
+COPY *.py .
+RUN mkdir -p examples
+
+ENV PYTHONUNBUFFERED=1
+
+#TURN THIS ON IF YOU WANT TO RUN IT AT START!
+#CMD ["python", "test_15hop.py"]
+

@@ -1,0 +1,66 @@
+{
+  "test_name": "15-hop BGPsec with Falcon-512",
+  "as_path": [
+    64512,
+    15169,
+    3356,
+    1299,
+    2914,
+    174,
+    3257,
+    3491,
+    6762,
+    64513,
+    64514,
+    64515,
+    64516,
+    64517,
+    64518
+  ],
+  "nlri": [
+    [
+      "192.0.2.0",
+      24
+    ]
+  ],
+  "num_hops": 15,
+  "size_metrics": {
+    "total_attr_size": 9978,
+    "data_size": 9974,
+    "num_hops": 15,
+    "segment_size": 90,
+    "total_signature_size": 9839,
+    "avg_signature_size": 655.9333333333333,
+    "signature_block_overhead": 45,
+    "nlri_size": 4,
+    "total_path_size": 9982,
+    "exceeds_bgp_limit": false
+  },
+  "update_message_size": 10003,
+  "signing_time_seconds": 0.004045009613037109,
+  "verification_time_seconds": 0.0014181137084960938,
+  "all_signatures_valid": true,
+  "per_hop_verification": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+  ],
+  "network_compatibility": {
+    "fits_standard_ethernet": false,
+    "fits_jumbo_frame": false,
+    "fits_max_jumbo": false,
+    "within_observed_range": true
+  }
+}

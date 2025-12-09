@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  bgpsec:
+    build: .
+    container_name: bgpsec-falcon512
+    volumes:
+      # Mount code directory for live edits
+      - .:/app
+      # Persist examples output
+      - ./examples:/app/examples
+    # Override command if needed
+    # command: python demo.py
+
+

@@ -1,0 +1,2 @@
+# Core dependency - provides Falcon-512 post-quantum signatures
+liboqs-python>=0.14.1
